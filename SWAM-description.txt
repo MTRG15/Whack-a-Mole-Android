@@ -1,0 +1,45 @@
+Super Whack-a-Mole Project
+
+This idea is a simplified version of the arcade analog version of the famous game that many people find on festivals.
+
+The main objective is to tap (whack!) as many moles as you can to gather up points in the shortest amount of time possible, avoiding to tap on bad moles that deduct points from the score.
+
+My current vision involves the use of the following building blocks:
+-Buttons that link to 4 different activities
+-Lists of items
+-Interface in multiple languages (english-spanish)
+-Vertical/Horizontal layouts
+-Play sound file
+-save information on disk for future executions (scores)
+-display images
+-display time values (timer)
+
+View 1: Main Screen
+Contains the logo of the game (could be an image or styled text), a picture of the game masco Mole (yet to be created) and three buttons as such:
+	- Start: links to the game view
+	- Scores: links to the scores view
+	- Settings: links to the settings view
+There are icons at the bottom to redirect to the social networks that promote the game and the developer team (just me).
+
+View 2: Game Screen
+Composed of a grid layout with 12 slots where either a good/bad/bonus mole can appear, the gameplay mechanics may change as the project advances but currently, 
+	-Only one good mole will appear at the time, if enabled one bonus mole can appear at the time, and one or more bad moles can appear at the time, and they will remain on screen indefinitely until one is tapped on or the timer runs out.
+	-If a mole tapped, the score will increase or decrease depending on the type of mole, the grid will be cleared and a new set of moles will appear on a random order.
+	-On the lower row of the grid there's a score marker that changes as the player taps on the moles, a message board (possible placeholder for future additions to the game) and a timer that shows how much time the player has to score points, when it reaches zero, the game stops and the score is stored on a top 5 best scores file (if there's a record, otherwise, the values will be discarded).
+	-At the bottom left there's a button to go back to the main screen (discarding all data if the timer is still running)
+	-At the bottom center there's a pause button that makes all images on the grid invisible (to avoid cheating) and stops the timer, showing a big "PAUSED" message/icon.
+	-At the bottom right there's an icon to go to the settings view, changing the settings will reset the game.
+
+View 3: Score Board
+Shows the top 5 best scores played on that device.
+When the player breaks a record, there can be a promt message asking to type in a name, which will be shown on the board next to the score, and the best 5 will be saved on a file for future executions.
+At the bottom screen there's a vertical layout to show images for achieving certain goals, like whacking a certain amount of moles on a given time, avoiding all bad moles on a session, or whacking a given number of bonus moles. Uppong tapping on each icon, a message will appear describing the actions required to unlock it.
+On the upper left there's an icon to go back to the main screen.
+
+View 4: Settings Menu
+Shows a basic list of selectable items that enable the use of bad moles, bonus moles, or sound/music in the game.
+There's a slider input that controls the difficulty (how many bad moles can appear at once). This can also be used to determine the speed at which the moles disappear from the screen (yet to be decided).
+
+Thank you for your time!
+
+
